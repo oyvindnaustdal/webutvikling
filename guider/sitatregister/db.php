@@ -3,7 +3,7 @@
 // Database konfigurasjon
 $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "";
 $dbname = "sitatregister";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
