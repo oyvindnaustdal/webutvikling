@@ -1,8 +1,4 @@
 <?php
-session_start(); 
-// Startar ei økt (session) slik at ein kan lagre data på tvers av sider om det trengst, 
-// til dømes innloggingsinformasjon eller statusmeldingar.
-
 require_once "db.php"; 
 // Hentar inn fila db.php som inneheld tilkoplinga til databasen. 
 // "require_once" sørgjer for at fila berre blir inkludert éin gong, 
