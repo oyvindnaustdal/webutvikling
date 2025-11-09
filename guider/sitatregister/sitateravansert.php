@@ -12,7 +12,7 @@
     // Resultatet blir ei liste der kvart sitat får med seg kven som sa det (namn og periode).
     $sql = "SELECT sitat.id, sitat.tekst, person.namn, person.periode
         FROM person, sitat
-        WHERE sitat.personid = person.id";
+        JOIN person ON sitat.personid = person.id";
 
     // Køyrer SQL-spørsmålet mot databasen og lagrar resultatet i variabelen $datasett.
     $datasett = $tilkobling->query($sql);
