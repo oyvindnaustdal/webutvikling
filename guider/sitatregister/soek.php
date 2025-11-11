@@ -54,7 +54,7 @@
         />
         <input type="submit" name="submit" value="Søk" />
     </form>
-    </div>
+    
 
     <?php
     // Dersom eit datasett er tilgjengeleg, vis resultata
@@ -69,5 +69,6 @@
         $tilkobling->close();
     }
     ?>
+    </div>
 </body>
 </html>
