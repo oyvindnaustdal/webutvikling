@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 require_once "db.php"; // Brukar same databasekopling som resten av systeme
 
 
