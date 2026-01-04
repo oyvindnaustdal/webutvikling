@@ -49,7 +49,18 @@ CREATE TABLE bestillingar (
     FOREIGN KEY (bil_id) REFERENCES bilar(id)
 );
 ```
-
+### Legg inn testdata
+```sql
+INSERT INTO bilar (merke, modell, pris, bilete) VALUES 
+('Toyota', 'Yaris', 500, 'yaris.jpg'),
+('Volvo', 'XC90', 1200, 'volvo.jpg'),
+('Tesla', 'Model 3', 900, 'tesla.jpg');
+```
+MERK: For å lage ein admin, registrer ein brukar på nettsida først, 
+og køyr deretter denne linja i SQL (byt ut eposten):
+```sql
+UPDATE brukarar SET rolle = 'admin' WHERE epost = 'din@epost.no';
+```
 ---
 ### Steg 3: Opprett Admin-brukar
 
