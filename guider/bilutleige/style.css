@@ -1,0 +1,69 @@
+body { 
+    font-family: sans-serif; 
+    max-width: 800px; 
+    margin: auto; 
+    padding: 20px; 
+    background-color: #f4f4f4; 
+}
+nav { 
+    background: hsl(245, 100%, 50%);
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+   
+}
+nav a { 
+    color: white; 
+    text-decoration: none; 
+    margin-right: 20px; 
+    font-weight: bold;
+ }
+nav a:hover { 
+    text-decoration: underline; 
+}
+.bil-kort { 
+    background: rgb(255, 255, 255); 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    margin-bottom: 15px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+ }
+input, button { 
+    display: block; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    border-radius: 4px; border: 1px solid #ccc; 
+}
+button { 
+    background: #007BFF; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px;
+ }
+button:hover {
+     background: #0056b3; 
+    }
+.feil { 
+    color: red; 
+    background: #ffe6e6; 
+    padding: 10px; 
+    border-radius: 4px; 
+}
+.suksess { 
+    color: green; 
+    background: #e6ffe6; 
+    padding: 10px; border-radius: 4px; 
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    background: white; }
+th, td { 
+    padding: 10px; 
+    border-bottom: 1px solid #ddd; 
+    text-align: left; 
+}
