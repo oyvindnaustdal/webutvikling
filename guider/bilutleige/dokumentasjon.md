@@ -49,6 +49,8 @@ CREATE TABLE bestillingar (
     FOREIGN KEY (bil_id) REFERENCES bilar(id)
 );
 ```
+
+### Datamodell:
 ### ![Datamodell](bilutleige.png)
 
 ### Legg inn testdata
