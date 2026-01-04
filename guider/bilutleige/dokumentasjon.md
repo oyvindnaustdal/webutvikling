@@ -87,7 +87,7 @@ UPDATE brukarar SET rolle = 'admin' WHERE epost = 'din@epost.no';
 * **`bestill.php`**: Bestillingsskjema. Sjekkar om bilen er ledig i valt periode (kollisjonssjekk).
 * **`minside.php`**: Oversikt over kundens eigne bestillingar (viser data via SQL JOIN).
 * **`loggut.php`**: Avsluttar sesjonen (loggar ut).
-* * **`meny.php`**: Meny som kan brukast på fleire sider.
+* **`meny.php`**: Meny som kan brukast på fleire sider.
 
 ### Administratorflyt (Backend)
 * **`admin.php`**: Hovudpanelet. Viser tabell over alle bilar med knappar for endring/sletting.
