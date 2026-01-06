@@ -136,6 +136,7 @@ Systemet sjekkar i SQL om ein bil allereie er utleigd i den valde perioden før 
 * Legg til funksjonalitet for å laste opp bilete av bilar (file upload) i staden for berre tekstfelt.
 * Moglegheit for admin til å slette bestillingar.
 * Filtrering av bilar på framsida (f.eks. etter pris eller merke).
+* Legg til validering av input i registrer.php og loginn.php
 
 
 
