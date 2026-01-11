@@ -1,7 +1,8 @@
 # Dokumentasjon for Bilutleigesystem
 
 ## 1. Om systemet
-Dette er eit einkelt, webbasert system for bilutleige. Systemet lèt kundar registrere seg, logge inn og bestille bilar. Det har også eit administrasjonspanel der administrator kan legge til, endre og slette bilar (CRUD).
+Dette er eit einkelt, webbasert system for bilutleige. Systemet  kan legge til, endre og slette bilar (CRUD).
+Det blir utvida med bestilling av bil for utleige. 
 
 ### Teknologiar
 * **Språk:** PHP 8+
