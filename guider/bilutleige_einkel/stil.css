@@ -1,0 +1,30 @@
+ body { 
+    font-family: sans-serif; padding: 20px; }
+
+        
+    .boks { 
+        border: 1px solid #ccc; 
+        padding: 20px; 
+        background: #f9f9f9; width: 300px; }
+        
+    table { 
+        width: 100%; 
+        border-collapse: collapse; 
+        margin-top: 20px; }
+        
+    td, th { 
+        border: 1px solid #ddd; 
+        padding: 8px; text-align: left; }
+        
+    th { 
+        background-color: #333; 
+        color: white; }
+       
+    .slett, .endre { 
+        text-decoration: none; 
+        font-weight: bold; }
+        
+    .endre { 
+        color: blue; }
+    .slett { 
+        color: red; }
