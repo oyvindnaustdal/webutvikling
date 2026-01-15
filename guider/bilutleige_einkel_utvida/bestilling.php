@@ -21,7 +21,7 @@ if (isset($_POST['fullfor_leige'])) {
     $sql_status = "UPDATE bilar SET status='Utleigd' WHERE id=$bil_id_fra_skjema";
     $kopling->query($sql_status);
 
-    //3. Skriv i loggboka (Historikk-tabellen)
+    //3. Lagrer bestillinga i bestillingar tabell
     $sql_logg = "INSERT INTO bestillingar (bil_id, kunde_id) VALUES ($bil_id_fra_skjema, $kunde_id_fra_skjema)";
     $kopling->query($sql_logg);
 
