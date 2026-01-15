@@ -1,0 +1,77 @@
+ body { 
+    font-family: sans-serif; 
+    max-width: 800px; 
+    margin: auto; 
+    padding: 20px; 
+    background-color: #f4f4f4; 
+}
+
+        
+    .boks { 
+        border: 1px solid #ccc; 
+        padding: 20px; 
+        background: #f9f9f9; width: 300px; }
+        
+    table { 
+        width: 100%; 
+        border-collapse: collapse; 
+        margin-top: 20px; }
+        
+    td, th { 
+        border: 1px solid #ddd; 
+        padding: 8px; text-align: left; }
+        
+    th { 
+        background-color: #150aea; 
+        color: white; }
+       
+    .slett, .endre { 
+        text-decoration: none; 
+        font-weight: bold; }
+        
+    .endre { 
+        color: blue; }
+    .slett { 
+        color: red; }
+
+    .status-utleigd {
+    background-color: #ff4444;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.status-ledig {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+nav { 
+    background: hsl(245, 100%, 50%);
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+   
+}
+nav a { 
+    color: white; 
+    text-decoration: none; 
+    margin-right: 20px; 
+    font-weight: bold;
+ }
+nav a:hover { 
+    text-decoration: underline; 
+}
+
+.feilmelding {
+    color: red;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #ffe6e6;
+    border-radius: 3px;
+    display: inline-block;
+}
