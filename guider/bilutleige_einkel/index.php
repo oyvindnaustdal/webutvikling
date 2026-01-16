@@ -48,7 +48,7 @@ if (isset($_GET['slett_id'])) {
             <label>Modell</label><br>
             <input type="text" name="modell" required><br><br>
             <label>Pris per dag:</label><br>
-            <input type="number" name="pris" required><br><br
+            <input type="number" name="pris" required><br><br>
             <label>Bilete (URL):</label><br>
             <input type="text" name="bilete" ><br><br>
             
